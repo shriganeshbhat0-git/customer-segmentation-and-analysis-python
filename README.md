@@ -67,15 +67,15 @@ Customer_Segmentation_Project/
 
 <h2 id="data-cleaning-preparation">🧹 Data Cleaning & Preparation</h2>
 
-Missing Values: Checked for nulls and ensured the dataset was complete with no missing entries.
+- Missing Values: Checked for nulls and ensured the dataset was complete with no missing entries.
 
-Data Types: Verified and corrected data types for accurate analysis (numerical vs categorical).
+- Data Types: Verified and corrected data types for accurate analysis (numerical vs categorical).
 
-Duplicate Records: Identified and removed duplicates.
+- Duplicate Records: Identified and removed duplicates.
 
-Feature Selection: Selected Age, Income, Spending Score, Gender for clustering.
+- Feature Selection: Selected Age, Income, Spending Score, Gender for clustering.
 
-Preprocessing: Applied StandardScaler and One-Hot Encoding for advanced multivariate clustering.
+- Preprocessing: Applied StandardScaler and One-Hot Encoding for advanced multivariate clustering.
 
 These steps ensured the dataset was clean, consistent, and ready for EDA and K-Means clustering.
 
@@ -116,82 +116,88 @@ It involves understanding the dataset, visualizing patterns, and applying K-Mean
 
 ![customer Analysis python DashBoard](images/Screenshot(5).png)
 
-(images/Screenshot (7).png)
+![customer Analysis python DashBoard](images/Screenshot(7).png)
 
-(images/Screenshot (8).png)
+![customer Analysis python DashBoard](images/Screenshot(8).png)
 
-(images/Screenshot (9).png)
+![customer Analysis python DashBoard](images/Screenshot(9).png)
 
-(images/Screenshot (10).png)
+![customer Analysis python DashBoard](images/Screenshot(10).png)
 
-Bivariate Analysis
 
-Scatter plots for relationships between variables
+# Bivariate Analysis :
 
-Annual Income vs Spending Score suggested natural clustering
+- Scatter plots for relationships between variables
 
-Pairplots for multivariate visualization
+- Annual Income vs Spending Score suggested natural clustering
 
-Heatmap correlations:
+- Pairplots for multivariate visualization
 
-Age ↘ Spending Score
+- Heatmap correlations:
 
-Age ↘ Income
+     Age ↘ Spending Score
 
-Income ↗ Spending = weak
+     Age ↘ Income
 
-Gender grouping for comparative metrics
+     Income ↗ Spending = weak
 
-Images:
-(Screenshot (11).png)
-(Screenshot (12).png)
-(Screenshot (13).png)
+- Gender grouping for comparative metrics
 
-Determining Optimal Clusters (Elbow Method)
 
-Calculated inertia for k = 1 to 10
+![customer Analysis python DashBoard1](Screenshot(11).png)
 
-Elbow at k = 5 → optimal number of clusters
+![customer Analysis python DashBoard1](Screenshot(12).png)
 
-Used for bivariate clustering (Income + Spending Score)
+![customer Analysis python DashBoard1](Screenshot(13).png)
 
-K-Means Clustering Implementation
-Univariate Clustering
+# Determining Optimal Clusters (Elbow Method) :
 
-Applied only on Annual Income
+- Calculated inertia for k = 1 to 10
 
-Elbow → 3 clusters (low, medium, high income)
+- Elbow at k = 5 → optimal number of clusters
 
-Bivariate Clustering (Main Model)
+- Used for bivariate clustering (Income + Spending Score)
 
-Applied on Annual Income + Spending Score
+# K-Means Clustering Implementation :
 
-k = 5
+- Univariate Clustering
 
-Resulting clusters:
+    - Applied only on Annual Income
 
-High Income – High Spending
+    - Elbow → 3 clusters (low, medium, high income)
 
-Low Income – High Spending
+- Bivariate Clustering (Main Model)
 
-High Income – Low Spending
+     - Applied on Annual Income + Spending Score
 
-Low Income – Low Spending
+     - k = 5
 
-Medium Income – Medium Spending
+     - Resulting clusters:
 
-Multivariate Clustering
+       - High Income – High Spending
 
-Added Age + Gender features
+       - Low Income – High Spending
 
-Applied StandardScaler + One-Hot Encoding
+       - High Income – Low Spending
 
-Prepared dataset for advanced clustering possibilities
+       - Low Income – Low Spending
 
-Images:
-(Screenshot (14).png)
-(Screenshot (15).png)
-(Screenshot (16).png)
+       - Medium Income – Medium Spending
+
+- Multivariate Clustering
+
+     - Added Age + Gender features
+
+     - Applied StandardScaler + One-Hot Encoding
+
+     - Prepared dataset for advanced clustering possibilities
+
+
+![customer Analysis python DashBoard2](Screenshot(14).png)
+
+![customer Analysis python DashBoard2](Screenshot(15).png)
+
+![customer Analysis python DashBoard2](Screenshot(16).png)
 
 <h2 id="key-insights">💡 Key Insights & Recommendations</h2>
 Cluster Summary & Marketing Recommendations
