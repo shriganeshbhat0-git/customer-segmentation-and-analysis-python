@@ -80,11 +80,14 @@ Preprocessing: Applied StandardScaler and One-Hot Encoding for advanced multivar
 These steps ensured the dataset was clean, consistent, and ready for EDA and K-Means clustering.
 
 <h2 id="libraries-used">📚 Libraries Used & Their Purpose</h2>
-Library	Purpose
-Pandas	Data loading, manipulation, preprocessing
-Matplotlib	Plotting distributions, scatter plots, clusters
-Seaborn	Statistical visualizations (histograms, KDE, pairplots, heatmaps)
-Scikit-learn	K-Means clustering, StandardScaler, One-Hot Encoding
+
+1.Pandas :	Data loading, manipulation, preprocessing
+
+2.Matplotlib :	Plotting distributions, scatter plots, clusters
+
+3.Seaborn :	Statistical visualizations (histograms, KDE, pairplots, heatmaps)
+
+4.Scikit-learn :	K-Means clustering, StandardScaler, One-Hot Encoding
 
 These libraries provided all tools required for analysis, visualization, preprocessing, and clustering.
 
@@ -92,30 +95,34 @@ These libraries provided all tools required for analysis, visualization, preproc
 
 It involves understanding the dataset, visualizing patterns, and applying K-Means clustering to segment customers for actionable insights.
 
-Univariate Analysis
+# Univariate Analysis :
 
-Descriptive statistics (mean, median, quartiles)
+- Descriptive statistics (mean, median, quartiles)
 
-Histograms + KDE plots for Age, Income, Spending Score
+- Histograms + KDE plots for Age, Income, Spending Score
 
-Observed:
+- Observed:
 
-Spending Score mostly between 40–60
+     - Spending Score mostly between 40–60
 
-Age & income normally distributed
+     - Age & income normally distributed
 
-Gender-based comparison via boxplots:
+- Gender-based comparison via boxplots:
 
-Females → higher mean spending
+     - Females → higher mean spending
 
-Males → slightly higher income
+     - Males → slightly higher income
 
-Images:
-(Screenshot (5).png)
-(Screenshot (7).png)
-(Screenshot (8).png)
-(Screenshot (9).png)
-(Screenshot (10).png)
+
+![customer Analysis python DashBoard](images/Screenshot(5).png)
+
+(images/Screenshot (7).png)
+
+(images/Screenshot (8).png)
+
+(images/Screenshot (9).png)
+
+(images/Screenshot (10).png)
 
 Bivariate Analysis
 
@@ -188,41 +195,31 @@ Images:
 
 <h2 id="key-insights">💡 Key Insights & Recommendations</h2>
 Cluster Summary & Marketing Recommendations
-High-Value Customers (Cluster 4)
 
-High income, high spending, age ~32
 
-Focus: Premium campaigns, loyalty programs
+1) High-Value Customers (Cluster 4) :
+     - High income, high spending, age ~32
+     - Focus: Premium campaigns, loyalty programs
+       
 
-Strategic Opportunity Customers (Cluster 2)
+2) Strategic Opportunity Customers (Cluster 2) :
+     - Low income, high spending, age ~25
+     - Focus: Promotional campaigns, aspirational products
 
-Low income, high spending, age ~25
+3) Low-Engagement Customers (Cluster 3) :
+    - High income, low spending, age ~41
+    - Focus: Personalized discounts, loyalty incentives
 
-Focus: Promotional campaigns, aspirational products
+4) Low-Value Customers (Cluster 1) :
+    - Low income, low spending, age ~45
+    - Focus: Minimal marketing allocation
 
-Low-Engagement Customers (Cluster 3)
-
-High income, low spending, age ~41
-
-Focus: Personalized discounts, loyalty incentives
-
-Low-Value Customers (Cluster 1)
-
-Low income, low spending, age ~45
-
-Focus: Minimal marketing allocation
-
-Average Customers (Cluster 0)
-
-Medium income, medium spending, age ~43
-
-Focus: General promotions, occasional upselling
+5) Average Customers (Cluster 0) :
+    - Medium income, medium spending, age ~43
+    - Focus: General promotions, occasional upselling
 
 Overall Takeaways:
-
-K-Means successfully segmented customers into five actionable groups
-
-Enables targeted marketing and resource optimization
+K-Means successfully segmented customers into five actionable groups Enables targeted marketing and resource optimization
 
 <h2 id="references">📚 References</h2>
 
@@ -240,3 +237,8 @@ Email: shriganeshbhat0@gmail.com
 LinkedIn: https://www.linkedin.com/in/shreeganesh-bhat-8a8184398
 
 GitHub: https://github.com/shriganeshbhat0-git
+
+
+
+
+
