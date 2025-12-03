@@ -1,4 +1,4 @@
-📅 Customer Segmentation & Clustering Analysis Using Python (K-Means)
+## 📅 Customer Segmentation & Clustering Analysis Using Python (K-Means)
 
 Using Python-based analytics and clustering, we identified five distinct customer groups to support data-driven marketing decisions. 🎯📊
 
@@ -21,15 +21,15 @@ A clear segmentation model will enable precise targeting, improved campaign effi
 
 The dataset contains information about mall customers, including the following columns:
 
-CustomerID – Unique identifier for each customer
+- CustomerID – Unique identifier for each customer
 
-Gender – Male or Female
+- Gender – Male or Female
 
-Age – Customer’s age in years
+- Age – Customer’s age in years
 
-Annual Income (k$) – Yearly income in thousands of dollars
+- Annual Income (k$) – Yearly income in thousands of dollars
 
-Spending Score (1–100) – A score representing customer spending behaviour
+- Spending Score (1–100) – A score representing customer spending behaviour
 
 This dataset serves as the basis for exploratory analysis and K-Means clustering to identify customer segments.
 
@@ -51,18 +51,23 @@ These tools enabled end-to-end analysis, from data exploration to cluster modeli
 
 <h2 id="folder-structure">📁 Folder Structure</h2>
 
-Customer_Segmentation_Project/
-│
-├── data/                      
-│   ├── raw_customer_data.csv          # Original dataset
-│   └── clustered_customer_data.csv    # Processed/clustered dataset
-│
-├── images/                            # All images used in the project
-│
-├── customer_data_visualization_python_notebook.ipynb   # Jupyter Notebook for analysis
-├── report_customer_needs.pdf                             # Detailed analysis report
-├── README.md                                            # Project documentation
-└── .gitignore                                           # Git ignore file
+```bash
+Customer_Segmentation_Project
+├── data/
+│   ├── raw_customer_data.csv
+│   └── clustered_customer_data.csv
+├── images/
+│   ├── Screenshot(11).png
+│   ├── Screenshot(12).png
+│   └── Screenshot(13).png
+├── customer_data_visualization_python_notebook.ipynb
+├── report_customer_needs.pdf
+├── README.md
+└── .gitignore
+```
+
+
+
 
 
 <h2 id="data-cleaning-preparation">🧹 Data Cleaning & Preparation</h2>
@@ -81,13 +86,13 @@ These steps ensured the dataset was clean, consistent, and ready for EDA and K-M
 
 <h2 id="libraries-used">📚 Libraries Used & Their Purpose</h2>
 
-1.Pandas :	Data loading, manipulation, preprocessing
+1. Pandas :	Data loading, manipulation, preprocessing
 
-2.Matplotlib :	Plotting distributions, scatter plots, clusters
+2. Matplotlib :	Plotting distributions, scatter plots, clusters
 
-3.Seaborn :	Statistical visualizations (histograms, KDE, pairplots, heatmaps)
+3. Seaborn :	Statistical visualizations (histograms, KDE, pairplots, heatmaps)
 
-4.Scikit-learn :	K-Means clustering, StandardScaler, One-Hot Encoding
+4. Scikit-learn :	K-Means clustering, StandardScaler, One-Hot Encoding
 
 These libraries provided all tools required for analysis, visualization, preprocessing, and clustering.
 
@@ -144,11 +149,11 @@ It involves understanding the dataset, visualizing patterns, and applying K-Mean
 - Gender grouping for comparative metrics
 
 
-![customer-Analysis-python-DashBoard](Screenshot(11).png)
+![customer Analysis python DashBoard](images/Scr1.png)
 
-![customer Analysis python DashBoard](Screenshot(12).png)
+![customer Analysis python DashBoard](images/Screenshot(12).png)
 
-![customer Analysis python DashBoard](Screenshot(13).png)
+![customer Analysis python DashBoard](images/Screenshot(13).png)
 
 # Determining Optimal Clusters (Elbow Method) :
 
@@ -193,11 +198,11 @@ It involves understanding the dataset, visualizing patterns, and applying K-Mean
      - Prepared dataset for advanced clustering possibilities
 
 
-![customer Analysis python DashBoard2](Screenshot(14).png)
+![customer Analysis python DashBoard2](images/Screenshot(14).png)
 
-![customer Analysis python DashBoard2](Screenshot(15).png)
+![customer Analysis python DashBoard2](images/Screenshot(15).png)
 
-![customer Analysis python DashBoard2](Screenshot(16).png)
+![customer Analysis python DashBoard2](images/Screenshot(16).png)
 
 <h2 id="key-insights">💡 Key Insights & Recommendations</h2>
 Cluster Summary & Marketing Recommendations
