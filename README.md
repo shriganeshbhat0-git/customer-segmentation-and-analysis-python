@@ -144,11 +144,11 @@ It involves understanding the dataset, visualizing patterns, and applying K-Mean
 - Gender grouping for comparative metrics
 
 
-![customer Analysis python DashBoard1](Screenshot(11).png)
+![customer-Analysis-python-DashBoard](Screenshot(11).png)
 
-![customer Analysis python DashBoard1](Screenshot(12).png)
+![customer Analysis python DashBoard](Screenshot(12).png)
 
-![customer Analysis python DashBoard1](Screenshot(13).png)
+![customer Analysis python DashBoard](Screenshot(13).png)
 
 # Determining Optimal Clusters (Elbow Method) :
 
